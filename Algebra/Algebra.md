@@ -20,7 +20,7 @@ Luckily this is very easy, since each element in the above sequence is just the 
 => 7<sup>1</sup> = 7<br>
 => 7<sup>2</sup> = (7<sup>1</sup>)<sup>2</sup> = 49<br>
 => 7<sup>4</sup> = (7<sup>2</sup>)<sup>2</sup> = 2401<br>
-Now, we only need to multipy the term whose corresponding bit is set (or bit is 1 ) in the binay representation of **n** <br>
+Now, we only need to multipy the terms whose corresponding bit is set (or bit is 1 ) in the binay representation of **n** <br>
 => To find 7<sup>5</sup>, we need to multiply only two terms i.e. 7<sup>4</sup> and 7<sup>1</sup> <br>
 => So, the final result will be 7<sup>5</sup> = 7<sup>4</sup> . 7<sup>1</sup> = 2401 . 7 = 16807
 <br>
