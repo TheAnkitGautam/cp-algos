@@ -13,10 +13,10 @@ Let's suppose, we need to find 7<sup>5</sup><br>
 Let **a** = 7 and **n** = 5 <br>
 Now, Let's write **n** in base 2 (or Binary representation), <br>
 => **n** = 101 <br>
-**=> 7<sup>5</sup> = 7<sup>101</sup> = 7<sup>1.2<sup>2</sup></sup>.7<sup>0.2<sup>1</sup></sup>.7<sup>1.2<sup>0</sup></sup> = 7<sup>4</sup>.7<sup>1</sup>**<br>
+**=> 7<sup>5</sup> = 7<sup>101</sup> = 7<sup>1.2<sup>2</sup></sup> . 7<sup>0.2<sup>1</sup></sup> . 7<sup>1.2<sup>0</sup></sup> = 7<sup>4</sup> . 7<sup>1</sup>**<br>
 
-As it can be seen easily from the above example, we only need find the powers **a<sup>1</sup>, a<sup>2</sup>, a<sup>4</sup> ... a<sup>[log n]</sup> (7<sup>4</sup> and 7<sup>1</sup> int the above example)**. 
-Luckily this is very easy, since an element in the above sequence is just the square of the previous element.<br>
+As it can be seen easily from the above example, we only need find the powers **a<sup>1</sup>, a<sup>2</sup>, a<sup>4</sup> ... a<sup>[log n]</sup> (7<sup>4</sup> and 7<sup>1</sup> in the above example)**. 
+Luckily this is very easy, since each element in the above sequence is just the square of the previous element.<br>
 => 7<sup>1</sup> = 7<br>
 => 7<sup>2</sup> = (7<sup>1</sup>)<sup>2</sup> = 49<br>
 => 7<sup>4</sup> = (7<sup>2</sup>)<sup>2</sup> = 2401<br>
